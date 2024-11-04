@@ -1,7 +1,7 @@
 {
   "contracts": {
     "Entropy": {
-      "mainnet": "0x1234567890123456789012345678901234567890",
+      "mainnet": "0xf5056B96ab242C566002852d0b98ce0BcDf1af51",
       "holesky": "0xf1a8F00DA34Fa8E3e3F8Cf322001fe06D08894Ab"      
     },
     "DevFunding": {
