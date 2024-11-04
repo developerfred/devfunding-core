@@ -3,4 +3,7 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
-# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+[rpc_endpoints]
+morph_holesky = "https://rpc-holesky.morphl2.io"
+morph_mainnet = "https://rpc-quicknode.morphl2.io"

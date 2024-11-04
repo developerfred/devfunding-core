@@ -1,66 +1,82 @@
-## Foundry
+# DevFunding 🚀
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+> Connecting developers with opportunities through decentralized funding
 
-Foundry consists of:
+## Overview
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+DevFunding is a decentralized platform that revolutionizes how developers find and secure funding for their work. By leveraging blockchain technology and smart contracts, we create a transparent, secure, and efficient marketplace for grants and bounties in the development community.
 
-## Documentation
+## Problem
 
-https://book.getfoundry.sh/
+- Developers struggle to find reliable funding sources for their projects
+- Project creators face challenges in finding and verifying qualified developers
+- Traditional funding platforms lack transparency and have high fees
+- No standardized way to handle disputes and ensure fair outcomes
 
-## Usage
+##  Solution
 
-### Build
+DevFunding provides a decentralized ecosystem where:
+- Developers can showcase their skills and find funding opportunities
+- Project creators can post grants and bounties with secure fund management
+- Smart contracts ensure transparent fund distribution
+- A democratic dispute resolution system protects all parties
 
-```shell
-$ forge build
-```
+## Key Features
 
-### Test
+### For Developers
+- Create verified developer profiles linked to GitHub
+- Apply for grants and contribute to bounties
+- Build reputation through successful project completion
+- Access premium features for enhanced visibility
+- Earn through referral program
 
-```shell
-$ forge test
-```
+### For Project Creators
+- Create and manage grants/bounties with customizable requirements
+- Secure fund management through escrow contracts
+- Select and verify developers for projects
+- Access to verified developer profiles
+- Flexible contribution options for bounties
 
-### Format
+### Platform Features
+- **Escrow System**: Secure fund management with automatic distribution
+- **Dispute Resolution**: Democratic voting system with multiple stakeholders
+- **Premium Tiers**: Enhanced features for serious platform users
+- **Referral System**: Incentivized growth through community rewards
+- **Reputation System**: Merit-based developer ranking
 
-```shell
-$ forge fmt
-```
+## 🔒 Security Features
 
-### Gas Snapshots
+- Reentrancy protection
+- Role-based access control
+- Secure fund management through escrow contracts
+- Protected premium features
+- Dispute resolution timelock
 
-```shell
-$ forge snapshot
-```
+## 💻 Technical Stack
 
-### Anvil
+- Solidity ^0.8.20
+- OpenZeppelin Contracts
+- ERC20 Token Integration
+- Custom Escrow System
 
-```shell
-$ anvil
-```
+## 📊 Business Model
 
-### Deploy
+1. **Platform Fees**:
+   - 2.5% base platform fee
+   - 1% referral bonus
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
+2. **Premium Features**:
+   - Highlighted grants/bounties
+   - Enhanced profile visibility
+   - Priority access to new features
+   - Customizable subscription duration
 
-### Cast
+3. **Token Economics**:
+   - Platform governance token
+   - Staking rewards
+   - Early adopter benefits
+   - Community incentives
 
-```shell
-$ cast <subcommand>
-```
+---
 
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+*Built with ❤️ for the Morph community*

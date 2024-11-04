@@ -1,0 +1,12 @@
+{
+  "contracts": {
+    "Entropy": {
+      "mainnet": "0x1234567890123456789012345678901234567890",
+      "holesky": "0xf1a8F00DA34Fa8E3e3F8Cf322001fe06D08894Ab"      
+    },
+    "DevFunding": {
+      "mainnet": "0x5de932BD252DD79231C9eDB5F2e30D488B785109",
+      "holesky": "0x8bDD366A31aBadf21818917Ce286Ea1543990d98"      
+    }   
+  }
+}
